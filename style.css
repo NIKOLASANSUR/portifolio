@@ -410,15 +410,34 @@ h2 {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-template-rows: repeat(2, 1fr);
-    grid-column-gap: 60px;
-    grid-row-gap: 60px;
+    grid-row-gap: 70px;
+
+    
+}
+
+.belarus {
+    margin-left: 220px;
+    height: 300px;
+    width: 500px;
+    align-self: center;
+    justify-self: center;
+    background: url(image\ 1.png);
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 7px;
+
 
     button {
         height: 55px;
         width: 70%;
         background-color: #E68600;
         color: rgb(255, 255, 255);
-        font-size: 18px;
+        font-size: 25px;
         font-weight: 600;
         cursor: pointer;
         border-width: initial;
@@ -430,7 +449,7 @@ h2 {
 
         transition: background-color 0.3s, transform 0.3s;
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: 60% 40%;
         align-items: center;
 
         h3 {
@@ -443,31 +462,13 @@ h2 {
     }
 }
 
-.belarus {
-    height: 300px;
-    width: 500px;
-    align-self: center;
-    justify-self: center;
-    background: url(image\ 1.png);
-    background-size: 100% 90%;
-    background-repeat: no-repeat;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    border-radius: 7px;
-
-
-    button {}
-}
-
 .bitmap {
+    margin-right: 220px;
     height: 300px;
     width: 500px;
     align-self: center;
     justify-self: center;
-    background: url(image\ 1.png);
+    background: url(image\ 2.png);
     background-size: 100% 90%;
     background-repeat: no-repeat;
     text-align: center;
@@ -476,60 +477,44 @@ h2 {
     justify-content: end;
     align-items: center;
     border-radius: 7px;
-
-/* 
     button {
+        height: 55px;
+        width: 70%;
         background-color: #E68600;
         color: rgb(255, 255, 255);
-        font-size: 1rem;
+        font-size: 25px;
+        font-weight: 600;
         cursor: pointer;
         border-width: initial;
         border-style: none;
         border-color: initial;
         border-image: initial;
         padding: 0.5rem 1rem;
-        border-radius: 7px;
+
+
         transition: background-color 0.3s, transform 0.3s;
-    } */
+        display: grid;
+        grid-template-columns: 60% 40%;
+        align-items: center;
+
+        h3 {
+            justify-self: right;
+        }
+
+        i {
+            justify-self: center;
+        }
+    }
+
 }
 
 .tulen {
+    margin-left:220px;
     height: 300px;
     width: 500px;
     align-self: center;
     justify-self: center;
-    background: url(image\ 1.png);
-    background-size: 100% 90%;
-    background-repeat: no-repeat;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    justify-content: end;
-    align-items: center;
-    border-radius: 7px;
-
-
-    /* button {
-        background-color: #E68600;
-        color: rgb(255, 255, 255);
-        font-size: 1rem;
-        cursor: pointer;
-        border-width: initial;
-        border-style: none;
-        border-color: initial;
-        border-image: initial;
-        padding: 0.5rem 1rem;
-        border-radius: 7px;
-        transition: background-color 0.3s, transform 0.3s;
-    } */
-}
-
-.tabelaperiodica {
-    height: 300px;
-    width: 500px;
-    align-self: center;
-    justify-self: center;
-    background: url(image\ 1.png);
+    background: url(image\ 3.png);
     background-size: 100% 90%;
     background-repeat: no-repeat;
     text-align: center;
@@ -541,5 +526,357 @@ h2 {
 
 
     button {
+        height: 55px;
+        width: 70%;
+        background-color: #E68600;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        border-width: initial;
+        border-style: none;
+        border-color: initial;
+        border-image: initial;
+        padding: 0.5rem 1rem;
+
+
+        transition: background-color 0.3s, transform 0.3s;
+        display: grid;
+        grid-template-columns: 55% 45%;
+        align-items: center;
+
+        h3 {
+            justify-self: right;
+        }
+
+        i {
+            justify-self: center;
+        }
+    }
+}
+
+.tabelaperiodica {
+    margin-right: 220px;
+    height: 300px;
+    width: 500px;
+    align-self: center;
+    justify-self: center;
+    background: url(image\ 4.png);
+    background-size: 100% 90%;
+    background-repeat: no-repeat;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    border-radius: 7px;
+
+
+    button {
+        height: 55px;
+        width: 70%;
+        background-color: #E68600;
+        color: rgb(255, 255, 255);
+        font-size: 25px;
+        font-weight: 600;
+        cursor: pointer;
+        border-width: initial;
+        border-style: none;
+        border-color: initial;
+        border-image: initial;
+        padding: 0.5rem 1rem;
+
+
+        transition: background-color 0.3s, transform 0.3s;
+        display: grid;
+        grid-template-columns: 75% 25%;
+        align-items: center;
+
+        h3 {
+            justify-self: right;
+        }
+
+        i {
+            justify-self: center;
+        }
+    }
+}
+#container-contato {
+    width: 100%;
+    background-color: #F6F7EB;
+    padding: 80px 0;
+}
+
+.contato-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.section-indicator-contato {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.section-indicator-contato::before {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #3da9a5;
+    border-radius: 50%;
+}
+
+.section-indicator-line {
+    width: 50px;
+    height: 3px;
+    background-color: #3da9a5;
+}
+
+.section-indicator-contato::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    background-color: #3da9a5;
+    border-radius: 50%;
+}
+
+.section-title {
+    font-size: 23px;
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: #333;
+    margin-left: 8px;
+}
+
+.contato-content {
+    display: grid;
+    grid-template-columns: 1.2fr 0.8fr;
+    gap: 50px;
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 100px;
+}
+
+.formulario-container,
+.informacoes-container {
+    height: 420px;
+    background-color: #F6F7EB;
+  padding: 27px;
+    border: 3px solid #333;
+    border-radius: 3px;
+}
+
+.formulario-container h2,
+.informacoes-container h2 {
+    font-size: 34px;
+    font-weight: 700;
+    color: #000;
+    margin-top: 5px;
+    margin-bottom: 35px;
+    margin-left: 9.5%;
+}
+
+#form-contato {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group input,
+.form-group textarea {
+    padding: 15px;
+    font-size: 16px;
+    border: 2px solid #333;
+    border-radius: 3px;
+    background-color: #F6F7EB;
+    color: #333;
+    font-family: "Exo", sans-serif;
+    transition: border-color 0.3s;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    outline: none;
+    border-color: #3da9a5;
+}
+
+.form-group input::placeholder,
+.form-group textarea::placeholder {
+    color: #000;
+    font-weight: 600;
+}
+
+.form-group textarea {
+    resize: vertical;
+    min-height: 120px;
+}
+
+.btn-enviar {
+    height: 55px;
+    width: 40%;
+    background-color: #3da9a5;
+    color: white;
+    font-size: 23px;
+    font-weight: 600;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    align-self: flex-start;
+}
+
+.btn-enviar:hover {
+    background-color: #2d8985;
+}
+
+.btn-enviar svg {
+    width: 23px;
+    height: 20px;
+    fill: white;
+}
+
+.informacoes-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.info-item:last-child {
+    margin-bottom: 0;
+}
+
+.info-icon {
+    width: 60px;
+    height: 60px;
+   color: #1DA091;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.info-icon svg {
+    width: 80px;
+    height: 80px;
+    fill: #1DA091;
+}
+
+.info-text h3 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+    margin-bottom: 10px;
+}
+
+.info-destaque {
+    font-size: 28px;
+    font-weight: 600;
+    color: #E68600;
+}
+
+@media (max-width: 1200px) {
+    .contato-content {
+        padding: 0 50px;
+    }
+}
+
+@media (max-width: 768px) {
+    .contato-content {
+        grid-template-columns: 1fr;
+        gap: 40px;
+        padding: 0 30px;
+    }
+
+    .form-row {
+        grid-template-columns: 1fr;
+    }
+
+    .formulario-container,
+    .informacoes-container {
+        padding: 30px;
+        
+    }
+}
+#rodape {
+    width: 100%;
+    background-color: #053225;
+    padding: 60px 0;
+    margin-top: 100px;
+}
+
+.footer-content {
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    padding: 0 100px;
+}
+
+.footer-content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    margin-bottom: 15px;
+}
+
+.footer-location {
+    font-size: 20px;
+    font-weight: 400;
+    color: white;
+    margin-bottom: 40px;
+}
+
+.footer-divider {
+    width: 100%;
+    height: 2px;
+    background-color: white;
+    margin: 0 auto 30px;
+}
+
+.footer-copyright {
+    font-size: 16px;
+    font-weight: 400;
+    color: white;
+    line-height: 1.6;
+}
+
+@media (max-width: 768px) {
+    .footer-content {
+        padding: 0 30px;
+    }
+
+    .footer-content h2 {
+        font-size: 24px;
+    }
+
+    .footer-location {
+        font-size: 18px;
+    }
+
+    .footer-copyright {
+        font-size: 14px;
     }
 }
