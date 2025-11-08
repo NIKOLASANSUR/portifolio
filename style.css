@@ -293,7 +293,7 @@ input:checked ~ .slider .moon {
     background-position: center;
     background-repeat: no-repeat;
     justify-self: center;
-     background-image: url(../1000011189.jpg); 
+     background-image: url(1000011189.jpg); 
     
 
 }
@@ -651,7 +651,7 @@ h2 {
         height: 90%;
         width: 90%;
         background-color: #053225;
-        background-image: url(../1000011150.png);
+        background-image: url(1000011150.png);
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
@@ -1273,3 +1273,4 @@ h2 {
         font-size: 14px;
     }
 }
+
